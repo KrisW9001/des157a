@@ -1,5 +1,6 @@
 body {
-    font-family: 'Lucida Sans';
+    /* font-family: 'Lucida Sans'; */
+    font-family: 'Permanent Marker', cursive;
     display:flex;
     flex-direction:column;
     align-items:center;
@@ -8,7 +9,7 @@ body {
 }
 
 .backimage{
-    background-image:"images/editedbackground.png";
+    background-image:url(images/editedbackground.png);
 }
 
 body header{
@@ -28,8 +29,9 @@ article{
     margin-bottom:100px;
 }
 
-article #left{
-    background-image:"images/leftboxscrap.png";
+#left{
+    background-image:url(images/leftboxscrap.png);
+    background-size:cover;
 }
 
 footer{
