@@ -10,6 +10,7 @@ body {
 
 .backimage{
     background-image:url(images/editedbackground.png);
+    background-size:cover;
 }
 
 body header{
@@ -22,6 +23,15 @@ body main{
     flex-direction:row;
 }
 
+ul{
+    display:flex;
+    flex-direction:column;
+}
+
+ul li{
+    list-style:none;
+}
+
 article{
     margin-left:150px;
     margin-right:150px;
@@ -29,9 +39,24 @@ article{
     margin-bottom:100px;
 }
 
+article h2{
+    text-align:center;
+}
+
 #left{
     background-image:url(images/leftboxscrap.png);
     background-size:cover;
+    display:flex;
+    flex-direction:column;
+    
+}
+
+#center{
+    background-image:url(images/centerboxscrap.png);
+    background-size:cover;
+    display:flex;
+    flex-direction:column;
+    
 }
 
 footer{
