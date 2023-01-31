@@ -5,8 +5,67 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Functions and DOM Experiment</title>
+
+    <style>
+        .red {color: red;}
+        .blue {color: blue;}
+        .green {color: green;}
+    </style>
+
 </head>
+
+
 <body>
-    
+    <h1 class="red">text</h1>
+
+    <h2 class="blue">text</h2>
+    <p class="green">text</p>
+
+    <h2 class="green">text</h2>
+    <p class="blue">text</p>
+
+    <h2 class="red">text</h2>
+    <p class="red">text</p>
+
+    <script>
+        var redText = document.getElementsByClassName("red");
+        var blueText = document.getElementsByClassName("blue");
+        var greenText = document.getElementsByClassName("green");
+
+        var header1 = document.querySelector('h1');
+        var header2 = document.getElementsByTagName('h2');
+        var paragraph = document.getElementsByTagName('p');
+
+        header1.innerHTML = "I'm a red header";
+
+        for (var i=0; i<header2.length; i++){
+            
+           /*  if (header2[i].className = blueText){
+                header2[i].innerHTML = "I'm a blue SubHeader";
+            } else {
+                header2[i].innerHTML = "I'm not a blue SubHeader";
+            } */
+
+            /* if (blueText = true){
+                header2[i].innerHTML = "I'm a blue SubHeader";
+            } 
+
+            else if (redText = true){
+                header2[i].innerHTML = "I'm not a blue SubHeader";
+            }  */
+
+            blueText[i].innerHTML = "I'm a blue SubHeader";
+            redText[i].innerHTML = "I'm not a blue SubHeader";
+            greenText[i].innerHTML = "I'm not a blue SubHeader";
+        }
+        
+        for (var m=0; m<paragraph.length; m++){
+ 
+             blueText[m].innerHTML = "I'm a blue SubHeader";
+             redText[m].innerHTML = "I'm not a blue SubHeader";
+             greenText[m].innerHTML = "I'm not a blue SubHeader";
+         }
+
+    </script>
 </body>
 </html>
