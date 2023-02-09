@@ -4,46 +4,51 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=, initial-scale=1.0">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css" rel="stylesheet">
+
     <link href="styles.css" rel="stylesheet">
     <script src="script.js" defer></script>
-    <title>Mad Libs Playtest</title>
+
+    <title>Mad Libs</title>
 </head>
 
 <body>
-    <h1>Mad Libs Playtest</h1>
-    <h2>Input your words here</h2>
+    <header>
+        <h1>Mad Libs</h1>
+        <h2>Input your words here</h2>
+    </header>
     
-        <div id="inputs">
-            <label>Profession <input type="text"></label>
-            <label>"-ly" Adjective <input type="text"></label>
-            <label>Noun (living thing) <input type="text"></label>
-            <label>"-ing" Verb <input type="text"></label>
-            <label>Place <input type="text"></label>
-            <label>Food <input type="text"></label>
-            <label>Noun (living thing)<input type="text"></label>
-            <label>"-ed" Verb <input type="text"></label>
-            <label>Noun <input type="text"></label>
-            <label>Person <input type="text"></label>
-            <label>"-ed" Verb <input type="text"></label>
-            <label>Verb <input type="text"></label>
-            <label>Noun <input type="text"></label>
-            <label>Rude Name <input type="text"></label>
-            <label>Adjective <input type="text"></label>
-            <label>Relative <input type="text"></label>
-            <label>Noun <input type="text"></label>
-            <label>Noun <input type="text"></label>
-            <label>Number <input type="text"></label>
-            <label>"-ed" Verb <input type="text"></label>
-            <label>Noun <input type="text"></label>
-            <button>Submit</button>
-        </div>
-            
-        
+    <main>
+        <form id="inputs">
+            <label form="pers1">Profession <input type="text" id="pers1"></label>
+            <label form="adj1">"-ly" Adjective <input type="text" id="adj1"></label>
+            <label form="noun1">Noun (living thing) <input type="text" id="noun1"></label>
+            <label form="verb1">"-ing" Verb <input type="text" id="verb1"></label>
+            <label form="place">Place <input type="text" id="place"></label>
+            <label form="food">Food <input type="text" id="food"></label>
+            <label form="noun2">Noun (living thing)<input type="text" id="noun2"></label>
+            <label form="verb2">"-ed" Verb <input type="text" id="verb2"></label>
+            <label form="noun3">Noun <input type="text" id="noun3"></label>
+            <label form="pers2">Person <input type="text" id="pers2"></label>
+            <label form="verb3">"-ed" Verb <input type="text" id="verb3"></label>
+            <label form="verb4">Verb <input type="text" id="verb4"></label>
+            <label form="noun4">Body Part <input type="text" id="noun4"></label>
+            <label form="name">Rude Name <input type="text" id="name"></label>
+            <label form="adj2">Adjective <input type="text" id="adj2"></label>
+            <label form="pers3">Relative <input type="text" id="pers3"></label>
+            <label form="noun5">Noun <input type="text" id="noun5"></label>
+            <label form="noun6">Noun <input type="text" id="noun6"></label>
+            <label form="num">Number <input type="text" id="num"></label>
+            <label form="verb5">"-ed" Verb <input type="text" id="verb5"></label>
+            <label form="noun7">Noun <input type="text" id="noun7"></label>
+            <input type="submit" value="submit">
+        </form>
         
         <article>
             <h2 id="title">The Bad Day</h2>
             <p><!-- My Day was absolutely terrible. I was supposed to meet with my ___ today, but when I arrived I was ___ greeted by their ___. They told me their boss was busy ___ in ___. I left to go get some ___ for lunch, but the restaurant's ___ ___ and all they had left was some ___. I didn't even get to enjoy that, though! ___ had ___ into the building ot ___ everyone there, and just to add insult to injury they stole my ___ and called me a ___ before they made their ___ escape. And to top it all off, this was the same day where my ___ called me to say that my ___ had crashed into a ___ and they were taking ___ dollars from my bank account. And to think I could've avoided this if I had ___ my ___. -->Input your words!</p>
         </article>
     
+    </main>
 </body>
 </html>
