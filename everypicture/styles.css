@@ -10,7 +10,8 @@ header{
     font-family:"calibri"; 
     font-size:large;
     color:rgb(238, 238, 238);
-    background-color:rgb(243, 51, 51);
+    background: rgb(125,12,12);
+    background: linear-gradient(0deg, rgba(125,12,12,1) 0%, rgba(243,51,51,1) 100%);
     border-style:groove;
     border-width:7px;
     border-radius:15px;
@@ -18,14 +19,42 @@ header{
     height:125px;
     margin:auto;
     margin-top:10px;
+    margin-left:375px;
+}
+
+aside{
+    position:absolute;
+    top:10%;
+    right:5%;
+    width:375px;
+    font-family:'calibri';
+    text-align:center;
+    background-size:contain;
+    background: rgb(181,181,181);
+background: linear-gradient(0deg, rgba(181,181,181,0.5019257703081232) 0%, rgba(255,255,255,0.499124649859944) 100%);
+    border-radius:15px;
+}
+
+#title{
+    font-size:60px;
+    font-weight:bolder;
+    margin-top:5px;
+    margin-right:10px;
+    margin-left:10px;
+}
+
+#description{
+    font-size:28px;
+    margin-top:-30px;
+    margin-bottom:20px;
+    margin-left:10px;
+    margin-right:10px;
 }
 
 aside img{
-    position:absolute;
-    top:200%;
-    right:30%;
-    height:60%;
-    opacity:0%;
+    position:relative;
+    margin-left:15px;
+    height:500px;
 }
 
 main{
