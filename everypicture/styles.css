@@ -25,18 +25,18 @@ header{
 aside{
     position:absolute;
     top:10%;
-    right:5%;
-    width:375px;
+    right:2%;
+    width:425px;
     font-family:'calibri';
     text-align:center;
     background-size:contain;
     background: rgb(181,181,181);
-background: linear-gradient(0deg, rgba(181,181,181,0.5019257703081232) 0%, rgba(255,255,255,0.499124649859944) 100%);
+    background: linear-gradient(0deg, rgba(181,181,181,0.5019257703081232) 0%, rgba(255,255,255,0.499124649859944) 100%);
     border-radius:15px;
 }
 
 #title{
-    font-size:60px;
+    font-size:46px;
     font-weight:bolder;
     margin-top:5px;
     margin-right:10px;
@@ -53,14 +53,13 @@ background: linear-gradient(0deg, rgba(181,181,181,0.5019257703081232) 0%, rgba(
 
 aside img{
     position:relative;
-    margin-left:15px;
     height:500px;
 }
 
 main{
     position:absolute;
     left:6%;
-    top:110%;
+    top:130%;
 }
 
 button{
