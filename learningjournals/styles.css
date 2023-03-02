@@ -6,10 +6,11 @@ body {
     align-items:center;
     /* min-height:750px;
     min-width:120px; */
+    
 }
 
 .backimage{
-    background-image:url(images/editedbackground.png);
+    background-image:url(images/free-lined-paper-texture.jpg);
     background-size:cover;
 }
 
