@@ -6,10 +6,6 @@
     const preview = document.querySelector('.preview');
     let title;
     let description;
-    
-    /* document.getElementById('overlay').style.display = "none"; */
-
-    
 
     //create event listener to update the preview image
     document.getElementById('mpss').addEventListener('mouseover',updatePreview0);
@@ -163,8 +159,10 @@
         
     }
 
-    document.getElementsByClassName('select').addEventListener('click',function(){
+    document.getElementById('mpss').addEventListener('click',function(a){
         a.preventDefault();
+        document.getElementById('overlay').className='show';
+        console.log('haha yes');
     })
 
     /* document.getElementById('mpss').addEventListener('click',popup0);
